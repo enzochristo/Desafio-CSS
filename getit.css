@@ -44,17 +44,20 @@ border: none
   align-items: center;  
   background-color:#f0d420 ;
   margin-bottom: 2.0rem;
+  padding-top: 0.6;
+ 
   box-shadow: 0 1px 7px rgba(0, 1, 0, 0.6);
 
 }
 
 .logo{
-  width: 5rem;
+  width: 6rem;
   margin:0.3rem;
 }
 
 .subtitle{
   margin-left: .8rem;
+
   font-size: medium;
   
 }
@@ -62,19 +65,24 @@ border: none
 .form-card{
   display: flex;
   flex-direction: column;
-  width: 40%;
-  padding: 1rem;
-  border-radius: 2px;
+  width: 25%;
+  padding: 0.6rem;
+  border-radius: 0.35rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin-left: 1rem;
+  margin-right: 1rem; 
 }
 
 .form-card-title{
 margin-bottom: .5rem;
+font-size: 20px;
+font-family: "Roboto", sans-serif;
+font-weight: bold;
   
 }
 
 .autoresize{
-  
+  font-family: "Roboto", sans-serif;  
 }
 
 .btn{
@@ -83,7 +91,6 @@ margin-bottom: .5rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   background-color: #f0d420;
   border: none;
-
 }
 
 .card-container{
