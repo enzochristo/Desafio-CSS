@@ -39,12 +39,13 @@ border: none
 
 .appbar{
   width: 100 hv;
+  padding: .5rem;
   display: flex;
   flex-direction: row;
   align-items: center;  
   background-color:#f0d420 ;
   margin-bottom: 2.0rem;
-  box-shadow: 0 1px 7px rgba(0, 1, 0, 0.6);
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.6);
 
 }
 
@@ -62,28 +63,43 @@ border: none
 .form-card{
   display: flex;
   flex-direction: column;
-  width: 40%;
-  padding: 1rem;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  justify-content:space-between;
+  width: 34rem;
+  padding: 1rem .8rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2rem;
+
+}
+
+.form-card-title,
+.autoresize{
+  margin-bottom: .7rem; /* Ajuste para controlar o espaçamento entre elementos */
+  outline: none;
 }
 
 .form-card-title{
 margin-bottom: .5rem;
-  
+font-weight:bold;
+font-size: 1.2rem;
+margin-bottom: 1rem;
 }
 
+
 .autoresize{
+  resize: none;
+  font-family: 'Roboto', sans-serif;
   
 }
 
 .btn{
-  height: 1.6rem;
   border-radius: 2px;
+  width: 100%;
+  padding: .675rem 0 ;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   background-color: #f0d420;
-  border: none;
-
+  border: none; 
+  font-size: 1rem; 
 }
 
 .card-container{
@@ -95,17 +111,33 @@ margin-bottom: .5rem;
   gap: 1rem;
 }
 
+.card-content{
+  font-family:'Permanent Marker';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:1; 
+}
+
 .card{
+  font-family: cursive; ;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
-  background-color: #20f062;
+  gap: .8rem;
   width: 10rem;
-  height: auto; /* ajusta automaticamente a altura dependendo do conteúdo */
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.6);
+  min-height: 6rem;
   padding: 1.5rem;
-  margin: 2rem;
+  margin: 1rem;
   border-radius: 10px;
   
+}
+.card-title{
+  font-family: 'Permanent Marker';
+}
+
+p{
+  color: #4c4c4c;
 }
 
 
@@ -160,3 +192,60 @@ Você pode usar o CSS comentado abaixo, se ajudar */
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 }
+
+.card-color-1 { background-color:#ead3a7; }
+.card-color-2 { background-color:#9de0f5 ; }
+.card-color-3 { background-color: #ef89ba; }
+.card-color-4 { background-color:#fae890; }
+.card-color-5 { background-color: #abe9c1; }
+
+
+.card-rotation-1{
+  transform: rotate(9deg);
+  
+}
+
+.card-rotation-2{
+  transform: rotate(3deg);
+}
+
+.card-rotation-3{
+  transform: rotate(4deg);
+
+}
+
+.card-rotation-4{
+  transform: rotate(5deg);
+}
+
+.card-rotation-5{
+  transform: rotate(6deg);
+}
+
+.card-rotation-6{
+  transform: rotate(7deg);
+}
+
+.card-rotation-7{
+  transform: rotate(8deg);
+}
+
+.card-rotation-8{
+  transform: rotate(-3deg);
+}
+
+.card-rotation-9{
+  transform: rotate(-4deg);
+}
+
+.card-rotation-10{
+  transform: rotate(-5deg);
+}
+
+.card-rotation-11{
+  transform: rotate(-6deg);
+}
+
+
+
+
