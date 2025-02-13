@@ -89,16 +89,22 @@ margin-bottom: .5rem;
 .card-container{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .card{
   display: flex;
   flex-direction: column;
+  gap: 1.2rem;
   background-color: #20f062;
-  width: 5rem;
+  width: 10rem;
+  height: auto; /* ajusta automaticamente a altura dependendo do conteúdo */
+  padding: 1.5rem;
   margin: 2rem;
-  
+  border-radius: 10px;
   
 }
 
